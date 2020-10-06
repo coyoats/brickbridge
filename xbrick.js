@@ -65,7 +65,7 @@ function attemptConnect() {
     } 
     else {
         if (window.ethereum.networkVersion==="100"){
-          document.getElementById("status").innerHTML = "Connected to Rinkeby! Good to go!";
+          document.getElementById("status").innerHTML = "Connected to xDai! Good to go!";
           document.getElementById("con").hidden=true;
           document.getElementById("connected").hidden=false;   
         setInterval(function() {
